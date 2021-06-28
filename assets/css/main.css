@@ -1,0 +1,125 @@
+html, body
+{
+	background: linear-gradient(315deg, #ffffff, #d7e1ec);
+}
+body {
+	font-family: "Segoe UI Regular", "Helvetica Neue", Helvetica, Tahoma, Arial Unicode MS, sans-serif;
+	font-size: 13px;
+	color: #333534;
+	background-position-y: 100%;
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+}
+h1
+{
+	font-size: 20px;
+}
+h2
+{
+	font-size: 18px;
+}
+a img{ border: 0; }
+
+a, a:link, a:visited
+{
+	color: #0086cc;
+}
+
+#logo
+{
+	margin: auto;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	padding: 20px 0;
+}
+#content {
+	margin:0 auto;
+	width:50%;
+	padding: 30px;
+}
+@media only screen and (max-width: 768px) {
+	#content {
+		width: auto !important;
+	}
+}
+#create_box
+{
+	text-align: center;
+}
+
+input[type="text"]
+{
+	box-sizing: border-box;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    box-shadow: none;
+    height: 44px;
+    padding: 0 15px;
+    width: 100%;
+    border: 1px solid #e6e4dd;
+    border-radius: 0;
+    line-height: 42px;
+    font-size: 14px;
+    font-family: source-sans-pro-regular,sans-serif;
+}
+
+input[type="submit"]
+{
+	background: linear-gradient(0deg,#a1deff,#b1e5ff);
+	border: 1px solid #7bd1ff;
+	color: #263040;
+    float: none;
+    margin: 4px 0 0;
+    width: 140px;
+    padding: 12px 0;
+    line-height: 12px;
+    border-radius: 3px;
+	position: relative;
+    display: inline-block;
+    white-space: nowrap;
+	font: 12px Arial;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: all .5s;
+    z-index: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover
+{
+    background: linear-gradient(0deg,#7bd1ff,#7bd1ff);
+    color: #fff
+}
+
+.box
+{
+	margin: 20px 0;
+}
+.text_box
+{
+	border: 1px solid #ddd;
+    background: #fff;
+    padding: 5px 10px;
+}
+.qr_image
+{
+	width:230px;
+	margin: auto;
+}
+.text_padding
+{
+	padding: 10px 0;
+}
+.disclaimer
+{
+	margin-top: 75px;
+	text-align: center;
+	border-top: 1px solid #fbfcfd;
+	padding-top: 20px;
+	color: #555;
+}
