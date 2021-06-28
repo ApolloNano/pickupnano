@@ -1,4 +1,4 @@
-# pickupnano
+# Pickupnano.com
 Semi-custodial wallet service that holds NANO and releases it upon calling a link or using a redeem code.
 
 Import db.sql file to your database
